@@ -798,7 +798,7 @@ To <dfn>parse aggregation keys</dfn> given an [=ordered map=] |map|:
 1. Return |aggregationKeys|.
 
 Issue: Determine whether to limit [=string/length=] or [=string/code point length=] for |key| above
-using [=max bytes per aggregation key identifier=]
+using [=max bytes per aggregation key identifier=].
 
 To <dfn noexport>parse source-registration JSON</dfn> given a [=string=]
 |json|, a [=suitable origin=] |sourceOrigin|, a [=suitable origin=] |reportingOrigin|, and a
